@@ -1,0 +1,230 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	margin:0 auto;
+	background: white;
+}
+
+
+.container{	margin:0 auto;
+	width: 70%;}
+
+.navbar-default{
+	background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	background-color: white;
+	color: #6DAFAF;
+}
+
+.nav{
+	background-color: #ffffff;
+	color: #000000;
+	list-style: none;
+	text-align: right;
+	padding: 20px 0 0 0;
+}
+
+.nav > li {
+	display: inline-block;
+	padding-right: 50px;
+	font-size: 12px
+}
+
+.nav > li > a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.nav > li > a:hover{
+	color: #6DAFAF;
+}
+
+.logo{
+	color: #000000;
+	float: left;
+	padding-left: 25px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.delta-banner {
+	width: 100%;
+	display: block;
+}
+
+.delta-banner > .delta-banner-image {
+	width: 100%;
+	display: block;
+}
+
+.Welcome {
+	color: black;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+.intro {
+	text-align:center;
+	width: 100%;
+	word-wrap: break-word;
+	font-size: 16px
+}
+
+	
+.me-image>.img-responsive {
+	width: 400px;
+	display: block;
+	margin: auto;
+	transform: rotate(90deg);
+	border-radius: 100px;
+	position: relative;
+}
+
+/* 
+.about{ */
+/* 	width: 700px;
+	height:600px; */
+/*     position: absolute; */
+/*     top: 115%;
+    left: 50%;
+    margin-right: -50%;
+	transform: translate(-50%, -50%)
+} */
+
+.about>.about-me{
+	text-align:leftt;
+	width: 100%;
+	font-size: 14px;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	line-height: 2.0;
+}
+
+.map-desc{
+	text-align: center;
+	font: Arial;
+}
+
+.img-responsive {
+	width: 700px;
+	display: block;
+	margin: auto;
+	position: relative;
+}
+
+
+
+.resume-titles{
+	font-weight: bold;
+	color: #6DAFAF;
+}
+
+
+.resume>.school>.first-school>.ucla-subtitles{
+	float:left;
+	width: 100%;
+	font-size: 15px;
+	border-width: 2px;
+	line-height: 2.0;
+	font-weight: bold;
+}
+
+.resume>.school>.first-school{
+	float: left;
+    width: 50%;
+}
+
+.resume>.school{
+	display:inline-block;
+}
+.resume>.school>.second-school>.wisconsin-subtitles{
+	float: right;
+	width: 100%;
+	font-size: 15px;
+	border-width: 2px;
+	line-height: 2.0;
+	font-weight: bold;
+}
+
+.resume>.school>.second-school{
+	float: left;
+    width: 50%;
+}
+
+.resume>.other-subtitles{
+	font-weight: bold;
+}
+
+.resume>.italics1{
+	font-style: italic;
+}
+
+.jobs>li{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.resume>.tech{
+}
+
+.ucla {
+	line-height: 2.0;
+}
+	
+
+
+/* .contact{
+	width: 700px;
+	height:600px;
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    margin-right: -50%;
+	transform: translate(-50%, -50%)
+} */
+
+.contact>.contact-me{
+	text-align:center;
+	width: 100%;
+	font-size: 14px;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	line-height: 2.0;
+}
+
+.icon{
+	list-style: none;
+	text-align: center;
+/* 	padding: 20px 0 0 0; */
+	margin: 0;
+	padding: 0;
+}
+
+
+.social>.icon>li>a>.fb{
+	width:3.7%;
+	height:3.7%;
+	margin: 0;
+	padding: 0;
+	border-radius: 100px;
+}
+
+.social>.icon>li>a>.ln{
+	width:3%;
+	height:3%;
+	margin: 0;
+	padding: 0;
+	border-radius: 100px;
+	
+}
+
+.social>.icon>li {
+	display: inline;
+}
