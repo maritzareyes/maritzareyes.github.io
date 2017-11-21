@@ -78,7 +78,6 @@ body {
 	
 .me-image>.img-responsive {
 	width: 400px;
-	transform: rotate(90deg);
 	display: block;
 	margin: auto;
 	border-radius: 100px;
