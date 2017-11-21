@@ -80,7 +80,6 @@ body {
 	width: 400px;
 	display: block;
 	margin: auto;
-	transform: rotate(90deg);
 	border-radius: 100px;
 	position: relative;
 }
