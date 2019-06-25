@@ -42,6 +42,55 @@ body {
 	color: #6DAFAF;
 }
 
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: #777;
+  padding: 15px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+		color: #6DAFAF;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
 .logo{
 	color: #000000;
 	float: left;
@@ -75,7 +124,7 @@ body {
 	font-size: 16px
 }
 
-	
+
 .me-image>.img-responsive {
 	width: 300px;
 	display: block;
@@ -83,17 +132,6 @@ body {
 	border-radius: 100px;
 	position: relative;
 }
-
-/* 
-.about{ */
-/* 	width: 700px;
-	height:600px; */
-/*     position: absolute; */
-/*     top: 115%;
-    left: 50%;
-    margin-right: -50%;
-	transform: translate(-50%, -50%)
-} */
 
 .about>.about-me{
 	text-align:leftt;
@@ -116,7 +154,6 @@ body {
 	margin: auto;
 	position: relative;
 }
-
 
 
 .resume-titles{
@@ -175,7 +212,7 @@ body {
 .ucla {
 	line-height: 2.0;
 }
-	
+
 
 .contact>.contact-me{
 	text-align:center;
@@ -200,9 +237,40 @@ body {
 	padding: 0;
 	border-radius: 100px;
 	width: 49px;
-	
+
 }
 
 .social>.icon>li {
 	display: inline;
+}
+.mapapps{
+	display: block;
+	margin: auto;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+#mapapps li {
+    list-style-type: none;
+		display: inline;
+}
+
+.mapimages:hover
+{
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+
+.tkinter{
+	text-align:leftt;
+	width: 100%;
+	font-size: 14px;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	line-height: 2.0;
 }
