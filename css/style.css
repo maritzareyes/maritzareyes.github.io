@@ -7,8 +7,10 @@ body {
 }
 
 
-.container{	margin:0 auto;
-	width: 70%;}
+.container{
+	margin:0 auto;
+	width: 70%;
+}
 
 .navbar-default{
 	background-color: white;
@@ -259,8 +261,7 @@ ol, ul {
 		display: inline;
 }
 
-.mapimages:hover
-{
+.mapimages:hover{
 	opacity: 0.3;
 	filter: alpha(opacity=30);
 }
