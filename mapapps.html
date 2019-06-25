@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>GIS Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+		<style>
+
+.container {
+     width:70%;
+}
+</style>
+</head>
+<body>
+<!-- Collapse Nav Bar -->
+
+<nav class="navbar navbar-default">
+	<div class "container">
+		<div class="navbar-header">
+			<button type = "button" class="navbar-toggle collapsed"
+			data-toggle="collapse"
+			data-target="#collapsemenu"
+			aria-expanded="false">
+			<span class="sr-only">Toggle Navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a href="#" class = "navbar-brand">
+				Map Applications
+			</a>
+		</div>
+		<div class = "collapse navbar-collapse" id = "collapsemenu">
+			<ul class="nav navbar-nav navbar-right">
+
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Me</a></li>
+
+				<li>
+					<div class="dropdown">
+					<button class="dropbtn">GIS Portfolio</button>
+					<div class="dropdown-content">
+						<a href="portfolio.html">Static Maps/Cartography</a>
+						<a href="#">Map Applications</a>
+					</div>
+				</div>
+			</li>
+
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Banner -->
+
+		<div class="delta-banner">
+			<img class="delta-banner-image" src="assets/leaflet_eq.jpg">
+		</div>
+
+		<div class= "container">
+
+		<br></br>
+
+		<h3 class="map-desc"><b>Mapp Applications</b></h1>
+		<br></br>
+
+		<div class="mapapps">
+		        <ul id="mapapps">
+							 <li><a href="https://maritzareyes.github.io/LosAngelesCrime/ "target="_blank"><img class= "mapimages" src="assets/crime.jpg" width="350" height="250" title="Los Angeles Crime" alt="la"></a></li>
+							 <li><a href="http://www.arcgis.com/apps/Viewer/index.html?appid=d8e301165d134412b31c90b01e1f8d74 "target="_blank"><img class= "mapimages" src="assets/topo.jpg" width="350" height="250" title="Topographic Map Collection" alt="topo"></a></li>
+							 <li><a href="https://maritzareyes.github.io/d3-lab2/ "target="_blank"><img class= "mapimages" src="assets/africa.jpg" width="350" height="250" title="Africa Land Use" alt="africa"></a></li>
+		           <li><a href="https://maritzareyes.github.io/leaflet-lab1/ "target="_blank"><img class= "mapimages" src="assets/world_earthquakes.jpg" width="350" height="250" title="World's Largest Earthquakes" alt="eq"></a></li>
+
+		        </ul>
+		</div>
+
+		<br></br>
+
+		<h3 class="map-desc"><b>Python Application - Tkinter</b></h1>
+		<br></br>
+		<p class="tkinter">
+			This python application was developed to analyze the relationship between nitrate level and cancer rates through spatial analysis. The first part of the program allows users to enter the distance decay coefficient (k), which will produce an inverse distance weighting (IDW) raster map of nitrate levels. The second part of the application uses a linear regression method to determine if nitrate concentrations are related to the cancer occurrences. A second map of Ordinary Least Squares (OLS) will be produced at the end.
+		</p>
+		<br></br>
+		<img class="img-responsive" src="assets/tkinter.jpg">
+		<br></br>
+		<img class="img-responsive" src="assets/idw_ols.jpg">
+		<br></br>
+
+
+		<br></br>
+
+		</div>
+
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
