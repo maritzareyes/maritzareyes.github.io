@@ -253,8 +253,8 @@ body {
 #mapapps ol, ul {
 /*     margin-top: 0;
     margin-bottom: 10px;
-    margin-left: 10%; */
-	text-align: center;
+    margin-left: 10%;
+    text-align: center; */
 }
 
 #mapapps li {
