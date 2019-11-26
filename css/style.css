@@ -248,13 +248,10 @@ body {
 .mapapps{
 	display: block;
 	margin: auto;
+	text-align: center;
 }
 
-#mapapps ol, ul {
-/*     margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 10%;
-    text-align: center; */
+ol, ul {
 }
 
 #mapapps li {
